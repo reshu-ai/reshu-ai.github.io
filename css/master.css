@@ -1,0 +1,97 @@
+html { 
+  background: url(../images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+
+.prof-box{
+	width: 450px;
+	height: 450px;
+	background: rgba(0,0,0,0.3);
+	padding:40px;
+	color:white;
+	   backdrop-filter: blur(5px);
+         background-repeat: no-repeat;
+background-size: 50%;
+margin:0 auto;
+margin-top: 100px;
+text-align: left;
+}
+.prof-pic{
+	border-radius:50%;
+	height:150px;
+	width:150px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+h1{
+	text-align: center;
+	font-weight: 100;
+	letter-spacing: 4;
+	font-size: 40px;
+}
+h5{
+		text-align: center;
+				font-weight: 80;
+				font-style: oblique;
+				font-family: Comic Sans MS;
+
+
+
+
+}
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.social_icons a{
+	color:white;
+
+}
+
+.line-break{
+	width: 460px;
+	border-top: 0.8px solid white;
+	margin:0,auto;
+vertical-align:middle;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
