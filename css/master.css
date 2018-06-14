@@ -1,5 +1,5 @@
 html { 
-  background: url(../images/bg.jpg) no-repeat center center fixed; 
+  background: url(../images/mountains.jpeg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11,15 +11,15 @@ html {
 .prof-box{
 	width: 450px;
 	height: 450px;
-	background: rgba(0,0,0,0.3);
+	background: rgba(0,0,0,0.6);
 	padding:40px;
 	color:white;
-	   backdrop-filter: blur(5px);
+	   backdrop-filter: blur(10px);
          background-repeat: no-repeat;
 background-size: 50%;
 margin:0 auto;
-margin-top: 100px;
-text-align: left;
+margin-top: 60px;
+text-align: center;
 }
 .prof-pic{
 	border-radius:50%;
@@ -94,4 +94,28 @@ vertical-align:middle;
 }
 .fa-linkedin:hover {
     background-color: #0073a4;
+}
+.fa-github {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-github:hover {
+    background-color: #000000;
+}
+.fa-instagram {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-instagram:hover {
+    background-color: #bc2a8d;
 }
