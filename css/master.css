@@ -394,57 +394,12 @@ vertical-align:middle;
 body {
   background-color:;
 }
-.button-container {
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-}
 
-.button {
-  -webkit-box-shadow: 0px 0px 16px -3px rgba(0,0,0,0.5);
--moz-box-shadow: 0px 0px 16px -3px rgba(0,0,0,0.5);
-box-shadow: 0px 0px 16px -3px rgba(0,0,0,0.5);
-}
-.btn {
-  height:50px;
-  width:200px;
-  background-color:transparent;
-  color:white;
-  font-size:18px;
-  border:1px solid #000;
-  transition:0.5s;
-}
-.button-hover {
-  height:50px;
-  width:200px;
-  background-color:#900C3F ;
-  position:absolute;
-  z-index:-1;
-  top:8px;
-  left:8px;
-  
-}
 
-.button:hover > .btn {
-  border-color:white ;
-}
+
 
 .prof-box{transition:background, 2s;}
 
-
-
-
-p{
-  color: white; 
-  font-family: "Courier";
-  font-size: 17px;
-  margin: 10px 0 0 10px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 25em;
-  text-align: center;
-}
 
 
 
