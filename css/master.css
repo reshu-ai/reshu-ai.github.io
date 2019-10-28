@@ -11,15 +11,15 @@ html {
 .prof-box{
 	width: 450px;
 	height: 450px;
-	background: rgba(0,0,0,0.5);
+	background: rgba(0,0,0,0.6);
 	padding:40px;
 	color:white;
 	   backdrop-filter: blur(14px);
          background-repeat: no-repeat;
 background-size: 50%;
 margin:0 auto;
-margin-top: 100px;
-text-align: left;
+margin-top: 70px;
+text-align: center;
 }
 .prof-pic{
 	border-radius:60%;
@@ -59,8 +59,9 @@ h5{
 	margin:0,auto;
 vertical-align:middle;
 }
-.fa-facebook {
+.fa-medium {
     padding:15px 24px;
+    margin-left: : 20px;
     margin-right: 48px;
     -o-transition:.5s;
     -ms-transition:.5s;
@@ -69,11 +70,11 @@ vertical-align:middle;
     transition: .5s;
     background-color: #322f30;
 }
-.fa-facebook:hover {
-    background-color: #3d5b99; radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+.fa-medium:hover {
+    background-color: #3CB371; radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
 }
 
-.fa-facebook:active {
+.fa-medium:active {
   background-color: #6eb9f7;
   background-size: 100%;
   transition: background 0s;
@@ -141,4 +142,110 @@ vertical-align:middle;
   background-size: 100%;
   transition: background 0s;
 }
+
+body {
+  background-color:;
+}
+.button-container {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.button {
+  -webkit-box-shadow: 0px 0px 16px -3px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 0px 16px -3px rgba(0,0,0,0.5);
+box-shadow: 0px 0px 16px -3px rgba(0,0,0,0.5);
+}
+.btn {
+  height:50px;
+  width:200px;
+  background-color:transparent;
+  color:white;
+  font-size:18px;
+  border:1px solid #000;
+  transition:0.5s;
+}
+.button-hover {
+  height:50px;
+  width:200px;
+  background-color:#900C3F ;
+  position:absolute;
+  z-index:-1;
+  top:8px;
+  left:8px;
+  
+}
+
+.button:hover > .btn {
+  border-color:white ;
+}
+
+.prof-box{transition:background, 2s;}
+
+
+
+
+p{
+  color: white; 
+  font-family: "Courier";
+  font-size: 17px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 25em;
+  animation: type 3s steps(25, end); 
+}
+
+p:nth-child(2){
+  animation: type2 8s steps(25, end);
+}
+
+p a{
+  color: white;
+  text-decoration: none;
+}
+
+span{
+  animation: blink 1s infinite;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
+}
+.prof-box:hover{
+	width: 450px;
+	height: 450px;
+	background: rgba(56.5,4.7,24.7,1.1);
+	padding:40px;
+	color:white;
+	   backdrop-filter: blur(14px);
+         background-repeat: no-repeat;
+background-size: 50%;
+margin:0 auto;
+margin-top: 90px;
+text-align: center;
+}
+
+
+
+
+
+
+
+
 
