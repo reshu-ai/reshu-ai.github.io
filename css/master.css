@@ -1,3 +1,5 @@
+
+
 html { 
   background: url(../images/bg1.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -21,6 +23,23 @@ margin:0 auto;
 margin-top: 70px;
 text-align: center;
 }
+
+@media screen and (max-width: 40.5em) {
+
+  .prof-box{
+  width: auto;
+  height: auto;
+  background: rgba(0,0,0,0.6);
+  padding:40px;
+  color:white;
+     backdrop-filter: blur(14px);
+         background-repeat: no-repeat;
+background-size: 50%;
+margin:0 auto;
+margin-top: 70px;
+text-align: center;
+}
+}
 .prof-pic{
 	border-radius:60%;
 	height:168px;
@@ -29,6 +48,7 @@ text-align: center;
 	margin-right: auto;
 	display: block;
 }
+
 h1{
 	text-align: center;
 	font-weight: 100;
@@ -152,6 +172,15 @@ body {
   left:50%;
   transform:translate(-50%,-50%);
 }
+@media screen and (max-width: 40.5em) {
+
+  .button-container {
+  position:absolute;
+  top:auto;
+  left:auto;
+  transform:translate(-50%,-50%);
+}
+}
 .button {
   -webkit-box-shadow: 0px 0px 16px -3px rgba(0,0,0,0.5);
 -moz-box-shadow: 0px 0px 16px -3px rgba(0,0,0,0.5);
@@ -239,7 +268,10 @@ background-size: 50%;
 margin:0 auto;
 margin-top: 90px;
 text-align: center;
+
 }
+
+
 
 
 
